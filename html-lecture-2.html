@@ -17,7 +17,7 @@
         <input type="email" value="" id="user-email" required />
         <br /><br />
         <label for="user-password">Password:</label>
-        <input type="password" value="" id="user-password" min="8" required />
+        <input type="password" value="" id="user-password" min="8" required minlength="8"/>
         <br /><br />
         <label for="user-phone-nmbr">Phone No:</label>
         <input type="number" value="" id="user-phone-nmbr" />
@@ -40,12 +40,12 @@
         </select>
         <br /><br />
         <label for="hobbies">Hobbies</label>&nbsp;&nbsp;&nbsp;&nbsp;
-        <label for="">Reading Books</label>
-        <input type="checkbox" value="" id="hobbies" checked />
-        <label for="">Music</label>
-        <input type="checkbox" value="" />
-        <label for="">Traveling</label>
-        <input type="checkbox" value="" />
+        <label for="reading-books">Reading Books</label>
+        <input type="checkbox" value="" id="reading-books" checked />
+        <label for="music">Music</label>
+        <input type="checkbox" value="" id="music" />
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="traveling" value="" />
         <br /><br />
         <label for="color">Favorite Color :</label>&nbsp;&nbsp;&nbsp;
         <input type="color" id="color" />
