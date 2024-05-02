@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form</title>
+</head>
+<body>
+    <h1>Personal Details Form</h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="https://www.examples.com" method="get">
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" value="" required autofocus>
+            <br><br>
+            <label for="user-email">Email:</label>
+            <input type="email" value="" id="user-email" required>
+            <br><br>
+            <label for="user-password">Password:</label>
+            <input type="password" value="" id="user-password" min="8" pattern="Asad#khan23" required>
+            <br><br>
+            <label for="user-phone-nmbr">Phone No:</label>
+            <input type="number" value="" id="user-phone-nmbr">
+            <br><br>
+            <label for="gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="male">Male</label>
+            <input type="radio" value="" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" value="" id="female" name="gender">
+            <br><br>
+            <label for="country">Country:</label>&nbsp;&nbsp;
+            <select name="" id="country">
+                <option value="">Select Country</option>
+                <option value="">Pakistan</option>
+                <option value="">America</option>
+                <!-- <optgroup>
+                    
+                    <option value="">Dubai</option>
+                </optgroup> -->
+            </select>
+            <br><br>
+            <label for="hobbies">Hobbies</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Reading Books</label>
+            <input type="checkbox" value="" id="hobbies" checked>
+            <label for="">Music</label>
+            <input type="checkbox" value="">
+            <label for="">Traveling</label>
+            <input type="checkbox" value="">
+            <br><br>
+            <label for="color">Favorite Color :</label>&nbsp;&nbsp;&nbsp;
+            <input type="color" id="color">
+            <br><br>
+            <label for="date">Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="date">
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>More Input Types</legend>
+        <form action="https://www.examples.com" method="get">
+            <label for="search">Search:</label>&nbsp;&nbsp;
+            <input type="search" id="search" placeholder="disabled" disabled>
+            <br><br>
+            <label for="time">Time:</label>&nbsp;&nbsp;
+            <input type="time">
+            <br><br>
+            <label for="date-time">datetime-local:</label>&nbsp;&nbsp;
+            <input type="datetime-local" id="date-time">
+            <br><br>
+            <label for="month">Month:</label>&nbsp;&nbsp;
+            <input type="month" id="month">
+            <br><br>
+            <label for="week">Week:</label>&nbsp;&nbsp;
+            <input type="week" id="week">
+            <br><br>
+            <label for="range">Range</label>&nbsp;&nbsp;&nbsp;
+            <input type="range" id="range">
+            <br><br>
+            <label for="file" accept=".jpg,.png,.mp4," multiple="multiple">File: </label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" id="file">
+            <br><br>
+            <label for="url">URL: </label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="url" id="url">
+        </form>
+    </fieldset>
+
+</body>
+</html>
